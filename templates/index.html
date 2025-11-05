@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Q&A Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Markdown parsing library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>📚 RAG-Q&A Assistant</h1>
+        <div class="chat-box" id="chat-box">
+            <div class="message bot-message welcome-message">
+                <p>🤖 Welcome! I am your Retrieval-Augmented Generation (RAG) assistant. Ask any question related to the documents in my knowledge base — I will retrieve relevant context and answer based on that information only.</p>
+            </div>
+        </div>
+        <div class="typing-indicator" id="typing-indicator" style="display: none;">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="user-input">
+            <input type="text" id="user-message" placeholder="Ask something related to the stored PDFs...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Flask==3.1.2
+python-dotenv
+openai
+PyPDF2
+sentence-transformers
+faiss-cpu
