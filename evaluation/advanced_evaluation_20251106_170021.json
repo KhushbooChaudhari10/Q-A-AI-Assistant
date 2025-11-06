@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-11-06T17:00:19.037610",
+  "total_questions": 5,
+  "questions": [
+    "What is LangGraph used for?",
+    "What framework should I use for this task?",
+    "What vector database is recommended?",
+    "What is the deadline for submission?",
+    "What is quantum entanglement?"
+  ],
+  "metrics": {
+    "rouge": {
+      "rouge1_f1": 0.37287220072050004,
+      "rouge2_f1": 0.15374820647635712,
+      "rougeL_f1": 0.2824812469149121
+    }
+  },
+  "overall_score": 0.26970055137058974
+}
